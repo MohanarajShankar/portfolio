@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "public": true,
   "builds": [
     {
       "src": "src/index.html",
@@ -8,7 +7,12 @@
       "config": { "distDir": "dist" }
     }
   ],
-  "static": {
-    "public": "public"
-  }
+  "routes": [
+    {
+      "src": "/google2d4f4dedaba3e931.html",
+      "dest": "/public/google2d4f4dedaba3e931.html"
+    },
+    { "src": "/robots.txt", "dest": "/public/robots.txt" },
+    { "src": "/sitemap.xml", "dest": "/public/sitemap.xml" }
+  ]
 }
