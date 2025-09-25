@@ -34,5 +34,10 @@
   },
   "directories": {
     "example": "examples"
+  },
+  "targets": {
+    "default": {
+      "publicUrl": "./"
+    }
   }
 }
